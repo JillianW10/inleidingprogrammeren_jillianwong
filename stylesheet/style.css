@@ -1,0 +1,188 @@
+body {
+  font-family: monospace;
+  background-image: url('../fotos/default.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.btnGeluid {
+  position: absolute;
+  width: 7em;
+  margin-left: 102.5em;
+  bottom: 64em;
+}
+
+.btnHint {
+  position: absolute;
+  margin-left: 19.5em;
+  bottom: 64em;
+  width: 7.5em;
+}
+
+.btnAchtergrond {
+  position: absolute;
+  width: 7em;
+  margin-left: 95em;
+  bottom: 64em;
+}
+
+.mainElement {
+  width: 90em;
+  margin-left: 19em;
+  margin-top: 8em;
+}
+
+.hintwaarde img {
+  position: absolute;
+  width: 9em;
+  top: 60em;
+  left: 20.5em;
+  animation: bounce 0.5s infinite alternate;
+}
+
+.hintwaarde {
+  background-color: #2785d1;
+  padding: 5em 0;
+  margin: 0 19em;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  background-color: #2785d1;
+  padding: 0.5em;
+  max-width: 20em;
+  margin: auto;
+  margin-top: 2em;
+  border-radius: 20em;
+}
+
+p {
+  margin-left: 8em;
+  font-size: x-large;
+}
+
+.varkenElement {
+  position: absolute;
+  height: 4em;
+  width: 4em;
+  margin-top: 34em;
+  margin-left: 60em;
+}
+
+.varkenCorrect {
+  position: absolute;
+  height: 6em;
+  width: 6em;
+  border: 0.5em solid rgb(10, 255, 10);
+  margin-top: 42em;
+  margin-left: 56em;
+  border-radius: 100%;
+  display: none;
+}
+
+.schaapElement {
+  position: absolute;
+  height: 2em;
+  width: 2em;
+  margin-top: 14em;
+  margin-left: 28em;
+}
+
+.schaapCorrect {
+  position: absolute;
+  height: 6em;
+  width: 6em;
+  border: 0.5em solid rgb(10, 255, 10);
+  margin-top: 42em;
+  margin-left: 20.3em;
+  border-radius: 100%;
+  display: none;
+}
+
+.schildpadElement {
+  position: absolute;
+  height: 3em;
+  width: 3em;
+  margin-top: 13em;
+  margin-left: 98em;
+}
+
+.schildpadCorrect {
+  position: absolute;
+  height: 6em;
+  width: 6em;
+  border: 0.5em solid rgb(10, 255, 10);
+  margin-top: 42em;
+  margin-left: 30em;
+  border-radius: 100%;
+  display: none;
+}
+
+.neilpaardElement {
+  position: absolute;
+  height: 3em;
+  width: 6em;
+  margin-top: 20em;
+  margin-left: 84em;
+}
+
+.neilpaardCorrect {
+  position: absolute;
+  height: 6em;
+  width: 6em;
+  border: 0.5em solid rgb(10, 255, 10);
+  margin-top: 42em;
+  margin-left: 42.5em;
+  border-radius: 100%;
+  display: none;
+}
+
+.stierElement {
+  position: absolute;
+  height: 3em;
+  width: 6em;
+  margin-top: 22em;
+  margin-left: 65em;
+}
+
+.stierCorrect {
+  position: absolute;
+  height: 6em;
+  width: 6em;
+  border: 0.5em solid rgb(10, 255, 10);
+  margin-top: 42em;
+  margin-left: 70em;
+  border-radius: 100%;
+  display: none;
+}
+
+.olifantElement {
+  position: absolute;
+  height: 3em;
+  width: 4em;
+  margin-top: 20em;
+  margin-left: 37em;
+}
+
+.olifantCorrect {
+  position: absolute;
+  height: 6em;
+  width: 6em;
+  border: 0.5em solid rgb(10, 255, 10);
+  margin-top: 42em;
+  margin-left: 85em;
+  border-radius: 100%;
+  display: none;
+}
