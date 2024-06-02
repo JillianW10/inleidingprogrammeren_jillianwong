@@ -1,5 +1,5 @@
 // Bron van onderzoek hoe ik CSS kan manipuleren met javascript, 
-// Ik heb uigevonden dat je het met een style property kan uitvoeren: 
+// Ik heb uitgevonden dat je het met een style property kan uitvoeren: 
 // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style 
 
 const varkenElement = document.querySelector(".varkenElement")
